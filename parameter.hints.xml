@@ -1,0 +1,9 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="PHP">
+        <added pattern="\WP_Widget.__construct(id_base,name,widget_options,control_options)" />
+      </blacklist>
+    </blacklists>
+  </component>
+</application>
