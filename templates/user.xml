@@ -5,4 +5,11 @@
       <option name="PHP Statement" value="true" />
     </context>
   </template>
+  <template name="eeco" value="echo &quot;$string$&quot;;" description="test" toReformat="true" toShortenFQNames="true">
+    <variable name="string" expression="capitalize(String)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Expression" value="true" />
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
 </templateSet>
