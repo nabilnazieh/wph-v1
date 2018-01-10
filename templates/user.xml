@@ -11,7 +11,7 @@
       <option name="PHP Statement" value="true" />
     </context>
   </template>
-  <template name="eeco" value="echo &quot;$String$&quot; ;" description="echo camelCase" toReformat="false" toShortenFQNames="true">
+  <template name="eeco" value="echo $String$ then $String$ ;" description="echo camelCase" toReformat="false" toShortenFQNames="true">
     <variable name="String" expression="capitalize(String)" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
