@@ -18,4 +18,12 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="&lt;??" value="&lt;?php $var$ ?&gt; $END$" description="php command" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+    </context>
+  </template>
 </templateSet>
