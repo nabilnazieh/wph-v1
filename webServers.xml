@@ -7,6 +7,9 @@
       <webServer id="d5aec96d-8fab-404e-84bb-14f852a17a97" name="local" url="http://localhost/wph-v3">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="c3b28290-153f-4045-b30c-6e1979f09343" name="local_wp-test" url="http://localhost/wp-test">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
