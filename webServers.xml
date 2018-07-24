@@ -1,11 +1,5 @@
 <application>
   <component name="WebServers">
-    <sftpAdvancedGlobalOptions>
-      <SftpAdvancedOptions hostKeyCheckingLevel="YES" hashKnownHosts="false">
-        <option name="hashHost" value="false" />
-        <option name="hostKeyCheckingLevel" value="YES" />
-      </SftpAdvancedOptions>
-    </sftpAdvancedGlobalOptions>
     <option name="servers">
       <webServer id="b4d93991-6969-46cb-af06-abdc83846c0f" name="wph" url="http://localhost">
         <fileTransfer port="0" accessType="LOCAL" />
